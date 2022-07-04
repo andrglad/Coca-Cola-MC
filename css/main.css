@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #220C10;
+}
+
+.container {
+  max-width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+  background-image: url(../img/girl.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 20px;
+}
+
+.header {
+}
+
+.nav {
+    max-width: 1007px;
+    display: flex;
+    position: relative;
+    margin: 64px 0 0 162px;
+    justify-content: space-between;
+    justify-items: center;
+}
+.logo {  
+    width: 189px;
+    height: 62px;
+}
+
+.ext {
+    color: #DDC19A;
+    height: 62px;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items:center;
+}
+
+.ext::before{
+    content: '';
+    display: block;
+    background: url(../img/Bottle.svg);
+    width: 15px;
+    height: 29px;
+    margin-right: 14px;
+}
+
+.ext::after{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(../img/down.png);
+    margin-top: 5px;
+    margin-left: 8px;
+    background-repeat: no-repeat;
+}
+
+.offer {
+    margin-left: 203px;
+    margin-top: 292px;
+    width: 639px;
+    text-transform: uppercase;
+    
+}
+.offer__intro {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 10%;
+    margin-bottom: 30px;
+    letter-spacing: 0.2rem;
+}
+.offer__title {
+    color: #DDC19A;
+    font-weight: 900;
+    margin-bottom: 28px;
+    letter-spacing: 0.4rem;
+    line-height: 3.5rem;
+}
+.offer__outro {
+    text-transform: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slides {
+    color: white;
+    text-decoration: none;
+    margin-top: 94px;
+
+}
+.slides_covid {
+    border: #DDC19A 1px dotted;
+    width: 474px;
+    height: 218px;
+    display: block;
+    margin-left: 203px;
+    background-image: url(../img/Covbox.png);
+}
+.covid_title {
+    text-align: center;
+    color: #220C10;
+    text-transform: uppercase;
+    padding: 50px 100px 0 100px;
+
+
+}
+.slides_history {
+    width: 474px;
+    height: 218px;
+    margin-left: 203px;
+    background: #E61D2A;
+    margin-top: 5px;
+    border: #DDC19A 1px dotted;
+    width: 474px;
+    height: 218px;
+    display: block;
+}
+
+.history_title {
+    color: white;
+    text-transform: uppercase;
+    margin: 40px 0 0 20px;
+    
+}
+
+.history_text{
+    color: white;
+    margin: 17px 20px 0 20px;
+}
+
